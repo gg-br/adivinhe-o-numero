@@ -70,8 +70,10 @@ function checkGuess() {
     const attempList = document.getElementById('attempts-list')
     const listItem = document.createElement('li')
 
+    const mediaQuery = window.matchMedia("(max-width: 1170px)")
 
-    listItem.innerHTML = `
+    if (mediaQuery.matches){
+          listItem.innerHTML = `
     <span class="tentativa-label">Tentativa ${attemps}</span>: 
     <span class="guess-number">${guess}</span>
       <br>
@@ -84,7 +86,25 @@ function checkGuess() {
         <span class="highlight-number">${correctPosition}</span> 
         <span class="label-text">na ordem correta</span>
     </span>
-`
+` 
+    } else {
+        listItem.innerHTML = `
+        <span class="tentativa-label">Tentativa ${attemps}</span>: 
+        <span class="guess-number">${guess}</span>
+        
+        <span class="correct-numbers">
+            <span class="highlight-number">${correctCount}</span> 
+            <span class="label-text">número(s) correto(s)</span>
+        </span>
+    
+        <span class="correct-position">
+            <span class="highlight-number">${correctPosition}</span> 
+            <span class="label-text">na ordem correta</span>
+        </span>
+    ` 
+    }
+
+ 
 
     attempList.appendChild(listItem)
 
