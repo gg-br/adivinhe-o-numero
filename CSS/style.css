@@ -33,6 +33,13 @@ li {
     padding: 5px;
 }
 
+ul {
+    font-size: 20px;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
+
 #status-message {
     background-color: black;
     color: white;
@@ -63,6 +70,7 @@ li {
     padding: 10px;
     background-color: #000;
     list-style-type: none;
+    text-align: center;
 }
 
 .paragrafo2 {

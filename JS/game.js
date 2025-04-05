@@ -70,13 +70,16 @@ function checkGuess() {
     const attempList = document.getElementById('attempts-list')
     const listItem = document.createElement('li')
 
+
     listItem.innerHTML = `
     <span class="tentativa-label">Tentativa ${attemps}</span>: 
-    <span class="guess-number">${guess}</span> - 
+    <span class="guess-number">${guess}</span>
+      <br>
     <span class="correct-numbers">
         <span class="highlight-number">${correctCount}</span> 
         <span class="label-text">número(s) correto(s)</span>
-    </span>, 
+    </span>
+    <br> 
     <span class="correct-position">
         <span class="highlight-number">${correctPosition}</span> 
         <span class="label-text">na ordem correta</span>
