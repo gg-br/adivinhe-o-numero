@@ -89,8 +89,8 @@ function checkGuess() {
 ` 
     } else {
         listItem.innerHTML = `
-        <span class="tentativa-label">Tentativa ${attemps}</span>: 
-        <span class="guess-number">${guess}</span>
+        <span class="tentativa-label">Tentativa ${attemps}</span> -
+        <span class="guess-number">${guess}</span> -
         
         <span class="correct-numbers">
             <span class="highlight-number">${correctCount}</span> 

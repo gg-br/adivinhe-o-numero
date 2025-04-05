@@ -80,11 +80,15 @@ ul {
 }
 
 .tentativa-label {
-    color: #ffffff;
+    padding: 3px;
+  
+    color: #afafaf;
 }
 
 .guess-number {
-    color: #00e1ff;
+    padding: 5px;
+    background-color: #000;
+    color: #ffffff;
 }
 
 .highlight-number {
@@ -92,11 +96,11 @@ ul {
 }
 
 .correct-numbers {
-    color: #00ff62;
+    color: #00ffd5;
 }
 
 .correct-position {
-    color: #00ff62; 
+    color: #00ffd5;
 }
 
 

@@ -88,23 +88,27 @@
     }
 
     .tentativa-label {
+        padding: 3px;
+      
+        color: #555;
+    }
+    
+    .guess-number {
+        padding: 5px;
+        background-color: #000;
         color: #ffffff;
     }
-
-    .guess-number {
-        color: #00e1ff;
-        font-weight: bold;
-    }
-
+    
     .highlight-number {
         color: #ffd500;
     }
-
+    
     .correct-numbers {
-        color: #00ff62;
+        color: #00ffd5;
     }
-
+    
     .correct-position {
-        color: #00ff62;
+        color: #00ffd5;
     }
+    
 }
