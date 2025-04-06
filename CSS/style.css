@@ -116,3 +116,8 @@ button:hover {
 .correct-position {
     color: #00ffd5;
 }
+
+.copy-gg{
+    text-decoration: none; 
+    color: inherit;       
+  }
