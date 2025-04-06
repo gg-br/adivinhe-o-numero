@@ -122,6 +122,8 @@
     }
 
     .copy-gg{
+        display: flex;
+        width: 200px;
         text-decoration: none; 
         color: inherit;       
       }
