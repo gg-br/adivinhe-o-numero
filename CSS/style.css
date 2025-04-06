@@ -7,6 +7,24 @@ body {
     padding: 20px;
 }
 
+h1{
+    margin-top: 0px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+    flex-wrap: wrap;
+}
+
+.github-icon{ 
+ 
+ 
+    font-size: 35px;
+    color: #ffffff;
+}
 input {
     text-align: center;
     margin-right: 10px;
@@ -86,6 +104,7 @@ ul {
 }
 
 .guess-number {
+    border-radius: 50%;
     padding: 5px;
     background-color: #000;
     color: #ffffff;
@@ -102,6 +121,5 @@ ul {
 .correct-position {
     color: #00ffd5;
 }
-
 
 
