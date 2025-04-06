@@ -7,24 +7,58 @@ body {
     padding: 20px;
 }
 
-h1{
-    margin-top: 0px;
+.container {
+    background-color: #333;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
- 
     flex-wrap: wrap;
 }
 
-.github-icon{ 
- 
- 
+.github-icon {
     font-size: 35px;
     color: #ffffff;
 }
+
+h1 {
+    margin-top: 0px;
+}
+
+.paragrafo1 {
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #000;
+    list-style-type: none;
+    text-align: center;
+}
+
+ul {
+    font-size: 20px;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    padding: 5px;
+}
+
+.container-2 {
+    margin-top: 20px;
+}
+
+.result {
+    margin-top: 10px;
+}
+
 input {
     text-align: center;
     margin-right: 10px;
@@ -38,24 +72,13 @@ button {
     padding: 8px 16px;
     font-size: 16px;
     background-color: #007bff;
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 4px;
     cursor: pointer;
 }
 
 button:hover {
     background-color: #0056b3;
-}
-
-li {
-    padding: 5px;
-}
-
-ul {
-    font-size: 20px;
-    padding: 0;
-    list-style-type: none;
-    text-align: center;
 }
 
 #status-message {
@@ -66,40 +89,12 @@ ul {
     font-size: 18px;
 }
 
-.container {
-    background-color: #333;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid white;
-    border-radius: 8px;
-}
-
-.container-2 {
-    margin-top: 20px;
-}
-
 .result {
     margin-top: 10px;
 }
 
-.paragrafo1 {
-    border-radius: 8px;
-    padding: 10px;
-    background-color: #000;
-    list-style-type: none;
-    text-align: center;
-}
-
-.paragrafo2 {
-    border-radius: 8px;
-    padding: 10px;
-    background-color: #000;
-}
-
 .tentativa-label {
     padding: 3px;
-  
     color: #afafaf;
 }
 
@@ -121,5 +116,3 @@ ul {
 .correct-position {
     color: #00ffd5;
 }
-
-

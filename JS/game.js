@@ -57,8 +57,8 @@ function checkGuess() {
     if (guess.length !== 3 || new Set(guess).size !== 3 || !/^[1-9]{3}$/.test(guess)) {
         alert("Por favor, insira uma sequência válida de 3 números entre 1 e 9, sem repetições.")
         return
-    } 
-    
+    }
+
     attemps++
 
     const guessArr = guess.split('')
@@ -72,8 +72,8 @@ function checkGuess() {
 
     const mediaQuery = window.matchMedia("(max-width: 1170px)")
 
-    if (mediaQuery.matches){
-          listItem.innerHTML = `
+    if (mediaQuery.matches) {
+        listItem.innerHTML = `
     <span class="tentativa-label">Tentativa ${attemps}</span>: 
     <span class="guess-number">${guess}</span>
       <br>
@@ -86,7 +86,7 @@ function checkGuess() {
         <span class="highlight-number">${correctPosition}</span> 
         <span class="label-text">na ordem correta</span>
     </span>
-` 
+`
     } else {
         listItem.innerHTML = `
         <span class="tentativa-label">Tentativa ${attemps}</span> -
@@ -101,10 +101,8 @@ function checkGuess() {
             <span class="highlight-number">${correctPosition}</span> 
             <span class="label-text">na ordem correta</span>
         </span>
-    ` 
+    `
     }
-
- 
 
     attempList.appendChild(listItem)
 
@@ -120,7 +118,7 @@ function checkGuess() {
     guessInput.value = ""
 }
 
-function restartGame(){
+function restartGame() {
     attemps = 0
     generateSequence()
     document.getElementById('guess').disabled = false
@@ -131,7 +129,7 @@ function restartGame(){
     updateAttemptsMessage()
 }
 
-window.onload = function(){
+window.onload = function () {
     generateSequence()
     updateAttemptsMessage()
 }

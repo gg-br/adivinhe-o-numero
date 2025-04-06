@@ -8,6 +8,59 @@
         padding: 10px;
     }
 
+    .container {
+        background-color: #333;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 10px 10px 0px 10px;
+        border: 1px solid white;
+        border-radius: 8px;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .github-icon {
+        font-size: 35px;
+        color: #ffffff;
+    }
+
+    h1 {
+        margin-top: 0px;
+    }
+
+    .paragrafo1 {
+        font-size: 20px;
+        border-radius: 8px;
+        padding: 10px;
+        background-color: #000;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    ul {
+        font-size: 20px;
+        padding: 0;
+        list-style-type: none;
+        text-align: left;
+    }
+
+    li {
+        padding: 9px;
+    }
+
+    .container-2 {
+        margin-top: 20px;
+    }
+
+    .result {
+        margin-top: 10px;
+    }
+
     input {
         text-align: center;
         margin-right: 10px;
@@ -15,10 +68,6 @@
         width: 50px;
         background-color: #555;
         color: white;
-    }
-
-    h1{
-        margin-top: 0px;
     }
 
     button {
@@ -31,30 +80,13 @@
         margin-top: 20px;
     }
 
-    .github-icon{ 
-        font-size: 35px;
-        color: #ffffff;
-      
-    }
-    
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-
     button:hover {
         background-color: #0056b3;
     }
 
-    .button_tentativa{
+    .button_tentativa {
         margin-top: 0px;
         margin-bottom: 20px;
-    }
-
-    li {
-        padding: 9px;
     }
 
     #status-message {
@@ -65,69 +97,28 @@
         font-size: 18px;
     }
 
-    .container {
-        background-color: #333;
-        max-width: 500px;
-        margin: 0 auto;
-        padding: 10px 10px 0px 10px;
-        border: 1px solid white;
-        border-radius: 8px;
-    }
-
-    .container-2 {
-        margin-top: 20px;
-    }
-
-    .result {
-        margin-top: 10px;
-    }
-
-    .paragrafo1 {
-        font-size: 20px;
-        border-radius: 8px;
-        padding: 10px;
-        background-color: #000;
-        list-style-type: none;
-        text-align: center;
-    }
-
-    .paragrafo2 {
-        border-radius: 8px;
-        padding: 10px;
-        background-color: #000;
-    }
-
-    ul {
-        font-size: 20px;
-        padding: 0;
-        list-style-type: none;
-        text-align: left;
-    }
-
     .tentativa-label {
         padding: 3px;
-      
         color: #afafaf;
     }
-    
+
     .guess-number {
         padding: 5px;
         background-color: #000;
         color: #ffffff;
         border-radius: 50%;
     }
-    
+
     .highlight-number {
         color: #ffd500;
     }
-    
+
     .correct-numbers {
         color: #00ffd5;
     }
-    
+
     .correct-position {
         color: #00ffd5;
     }
-    
 
 }
